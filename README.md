@@ -1,4 +1,4 @@
-# dorado_pipeline
+# Dorado Pipeline
 
 This script assumes a sample-level directory structure in which each top-level sample folder contains a second sample folder, and that nested folder contains one or more run directories. Each run directory must include a `pod5/` subdirectory containing POD5 files. `run_dorado_fastq.sh` should be placed in and executed from the nested sample directory, alongside the run folders.
 
