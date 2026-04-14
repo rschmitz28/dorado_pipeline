@@ -25,6 +25,7 @@ Running the script will generate the following files in the sample-level directo
 
 - This script is written for a SLURM-based GPU environment.
 - Update SLURM resource requests as needed for your system.
+- It is recommended to run this from within a `tmux` session to avoid interruption if your connection drops.
 - By default, the script expects `dorado` to be available in your environment.
 - You can override the Dorado executable path or model at runtime:
 
