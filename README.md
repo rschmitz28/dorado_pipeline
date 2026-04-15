@@ -27,6 +27,7 @@ Running the script will generate the following files in the sample-level directo
 - Update SLURM resource requests as needed for your system.
 - It is recommended to run this from within a `tmux` session to avoid interruption if your connection drops.
 - By default, the script expects `dorado` to be available in your environment.
+- The script assumes that the `dorado` executable is available in your environment. You can download it from the [Dorado Github repository](https://github.com/nanoporetech/dorado/?tab=readme-ov-file). The Patel Lab should have it on the `../common/reference/tools/` location.
 - You can override the Dorado executable path or model at runtime:
 
 ```bash
